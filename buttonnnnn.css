@@ -1,0 +1,145 @@
+/* styles.css */
+
+body {
+  background-color: #000; /* black background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000; /* black background */
+  color: rgb(44, 206, 44); /* cyan green text */
+  padding: 1em;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 460px;
+}
+
+h1 {
+  color: #6c30ce; /* cyan green text */
+  margin: 0;
+}
+
+.buttons {
+  margin-left: auto;
+}
+
+button {
+  background-color: #333; /* dark gray background */
+  color: #fff; /* white text */
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+button a {
+  color: #fff; /* white text */
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #444; /* darker gray background on hover */
+}
+
+button.youtube {
+  background-color: #ff0000; /* red background */
+  color: #fff; /* white text */
+}
+
+button.youtube:hover {
+  background-color: #ff3333; /* darker red background on hover */
+}
+
+button.discord {
+  background-color: #7289da; /* blueish background */
+  color: #fff; /* white text */
+}
+
+button.discord:hover {
+  background-color: #6a7bc9; /* darker blueish background on hover */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+section {
+  background-color: #f7f7f7;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  color: #4a94e7; /* cyan green text */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+footer {
+  background-color: #000; /* black background */
+  color: #33cc33; /* cyan green text */
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+
+.owner {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.co-owner {
+  font-weight: 900;
+}
+
+.founder {
+  font-weight: 900;
+}
+
+.shuraim {
+  font-weight: 900;
+}
+
+.ansar {
+  font-weight: 800;
+}
+
+.dark {
+  font-weight: 800;
+}
+
+.arex {
+  font-weight: 800;
+}
+
+.goku {
+  font-weight: 800;
+}
+
+.lol {
+  color: #33cc33;
+  font-size: 25px;
+  font-weight: 650;
+}
+
+.role {
+  font-weight: bold;
+}
