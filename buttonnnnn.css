@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-  color: #6c30ce; /* cyan green text */
+  color: #4fbeff; /* cyan green text */
   margin: 0;
 }
 
@@ -142,4 +142,69 @@ footer {
 
 .role {
   font-weight: bold;
+}
+
+.ansarr {
+  display: flex;
+  flex-direction: column;
+}
+
+.kutta {
+  margin-bottom: 5px;
+}
+
+.samebro {
+  text-align: center;
+}
+
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/1147932002679537824/1294969181908897794/nload_14.jpg?ex=670cf188&is=670ba008&hm=671f95686992eca0744b0a17dccd0bf599f1ee5d6616fbeb5f22448220ee6b4d&);
+}
+
+.img1 {
+  height: 200px;
+  width: 30px;
+  margin-right: 1200px;
+}
+
+.img2 {
+    height: 200px;
+    width: 30px;
+    margin-left: 1200px;
+}
+
+.img3 {
+  height: 200px;
+  width: 30px;
+  margin-right: 1200px;
+}
+
+.img4 {
+  height: 200px;
+  width: 30px;
+  margin-left: 1200px;
+}
+
+.game {
+  font-weight: 900;
+  margin-right: 900px;
+  font-size: 50px;
+}
+
+.game2 {
+  font-weight: 900;
+  margin-left: 1010px;
+  font-size: 50px;
+}
+
+.game3 {
+  font-weight: 900;
+  margin-right: 900px;
+  font-size: 50px;
+}
+
+.game4 {
+  font-weight: 900;
+  margin-left: 1010px;
+  font-size: 50px;
 }
